@@ -1,0 +1,151 @@
+
+*{margin:0; padding:0;}
+
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f0f0;
+}
+
+
+/*menu inicial*/
+.a-menu{
+  margin-right: 40px;
+  font-weight: bold;
+}
+
+.a-menu:link, .a-menu:visited{
+  color:#FFF;
+}
+
+.a-menu:hover, .a-menu:active{
+  color: red;
+}
+
+a{
+  font:1.2rem 'Roboto', sans-serif;
+  text-decoration: none;
+}
+/* fim do menu inicial*/
+
+
+
+/* Cabeçalho */
+header {
+  background-color: #e47f7f;
+  padding: 20px;
+  text-align: center;
+}
+
+header, h1 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+nav, ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav,ul ,li {
+  margin: 0 10px;
+}
+
+nav, ul, li, a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav, ul, li, a:hover {
+  color: #ffe5e5;
+}
+/* Fim do Cabeçalho */
+
+
+
+
+/* Conteúdo Principal */
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+section, h2 {
+  color: #e47f7f;
+  margin-bottom: 10px;
+}
+/* Fim do Conteúdo Principal */
+
+
+
+/* Frases e Dicas */
+.frase, .dica {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+}
+
+.frase h3, .dica h3 {
+  color: #e47f7f;
+  margin-top: 0;
+}
+
+.frase p, .dica p {
+  color: #555;
+  line-height: 1.5;
+}
+/* Fim de Frases e Dicas */
+
+
+
+/* Rodapé */
+footer {
+  background-color: #e47f7f;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+footer, p {
+  margin: 0;
+}
+/* Fim do Rodapé */
+
+
+
+/* mobile responsividade*/
+
+@media screen and (max-width:390px){
+  nav, main, aside{
+    width: 100%;
+}
+
+nav{
+  height: 60px;
+}
+
+ul{
+  display: flex;
+  justify-content: space-between;
+}
+
+main{
+  font-size: 1.2em;
+}
+
+aside{
+  height: 170px;
+  display: flex;
+  font-size: 1.2em;
+ }
+
+}
