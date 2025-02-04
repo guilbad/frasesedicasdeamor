@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enviar Sugestões - Frases e Dicas de Amor</title>
+  <link rel="stylesheet" type="text/css" href="estilo.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Frases e Dicas de Amor</h1>
+    <nav>
+      <a class="a-menu" href="index.html">Início</a>
+      <a class="a-menu" href="frases.html">Frases</a>
+      <a class="a-menu" href="dicas.html">Dicas</a>
+      <a class="a-menu" href="enviarsugestao">Enviar Sugestão</a>
+    </nav> 
+  </header>
+
+  <main>
+    <section>
+      <h2>Enviar Sugestões</h2>
+      <form id="sugestao-form">
+        <div class="form-group">
+          <label for="nome">Seu Nome:</label>
+          <input type="text" id="nome" name="nome" required>
+        </div>
+
+        <div class="form-group">
+          <label for="sugestao">Sua Sugestão:</label>
+          <textarea id="sugestao" name="sugestao" rows="4" required></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="categoria">Escolha uma Categoria:</label>
+          <select id="categoria" name="categoria" required>
+            <option value="">Selecione uma categoria</option>
+            <option value="frases">Frases</option>
+            <option value="dicas">Dicas</option>
+            <option value="outros">Outros</option>
+          </select>
+        </div>
+
+        <button type="submit">Enviar Sugestão</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Desenvolvido por <a href="http://instagram.com/guil_bad" target="_blank">Guilherme Guimarães</a> - 2025</p>
+  </footer>
+</body>
+</html>
